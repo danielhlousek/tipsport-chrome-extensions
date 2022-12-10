@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tipsport fullscreen stream chrome extension",
+  "description": "Fullscreen tipsport stream video",
+  "version": "1.0",
+  "action": {
+    "default_icon": "images/icon.png"
+  },
+  "background": {
+    "service_worker": "scripts/switcher.js"
+  },
+  "permissions": ["activeTab", "scripting"]
+}
